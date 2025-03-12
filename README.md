@@ -56,11 +56,6 @@ Visit **http://localhost:5000** in your browser. 🎉
 
 ---
 
-## 📸 Screenshots
-> *Coming Soon...* 📷  
-
----
-
 ## 📜 License
 This project is **open-source** and available under the **MIT License**. 📄  
 
@@ -73,5 +68,5 @@ Want to improve this project? 🤝 Feel free to submit a pull request!
 
 ## 📧 Contact
 🔹 **Author:** Ahmed Khamis Hassan  
-🔹 **Email:** your-email@example.com  
-🔹 **GitHub:** [Your GitHub Profile](https://github.com/YOUR-USERNAME)  
+🔹 **Email:** ahmedkhamees37@gmail.com  
+🔹 **GitHub:** https://github.com/ahmedkhamees37 
