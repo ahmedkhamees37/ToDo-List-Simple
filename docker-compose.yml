@@ -1,0 +1,25 @@
+version: '3'
+  2 services:
+  3   db:
+  4     image: mysql:5.7
+  5     environment:
+  6       MYSQL_ROOT_PASSWORD: example
+  7       MYSQL_DATABASE: test_db
+  8     ports:
+  9       - "3306:3306"
+ 10     volumes:
+ 11       - db_data:/var/lib/mysql
+ 12
+ 13   web:
+ 14     build: .
+ 15     ports:
+ 16       - "5000:5000"
+ 17     depends_on:
+ 18       - db
+ 19     environment:
+ 20       FLASK_ENV: development
+ 21     volumes:
+ 22       - .:/app
+ 23
+ 24 volumes:
+ 25   db_data:
